@@ -1,0 +1,193 @@
+body{
+    background-image: url(PHOTOS/aa.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header{
+    width: 100%;
+    height: 100px;
+}
+
+.nav ul li{
+    list-style: none;
+    display: inline-block;
+}
+
+
+.nav ul li a{
+    text-decoration: none;
+    color: beige;
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: cursive;
+    font-style: oblique;
+    margin: 15px;
+    padding: 5px;
+    animation-name: afnan;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+.nav ul li a:hover{
+    background: linear-gradient(45deg , rgba(196, 87, 105, 0.836) , rgba(48, 1, 27, 0.562) , rgba(128, 128, 128, 0.699));
+    border: 3px solid rgba(231, 139, 162, 0.884);
+}
+
+@keyframes afnan{
+
+    1%{
+        border-radius: 60px;
+        background-color: red;
+
+    }
+
+    2%{
+        border-radius: 20px;
+        background-color: rgb(187, 255, 0);
+
+    }
+
+    3%{
+        border-radius: 30px;
+        background-color: rgb(248, 82, 17);
+
+    }
+
+    4%{
+        border-radius: 40px;
+        background-color: rgb(230, 11, 11)
+
+    }
+}
+.login{
+    width: 400;
+    height: 400;
+    padding: 68px 28px;
+    background-color: transparent;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    box-sizing: border-box;
+
+}
+.login :hover{
+    background: linear-gradient(45deg , rgb(68, 34, 34) ,rgb(32, 9, 23) , rgb(44, 30, 38));
+    margin-top: 5px;
+
+}
+.login img{
+    border-radius: 50%;
+    margin-left: 265px;
+    animation-name: test;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes test{
+    1%{
+        border-radius: 5px;
+        background-color: slateblue;
+    }
+    2%{
+        border-radius: 15px;
+        background-color: firebrick;
+    
+    }
+    3%{
+        border-radius: 15px;
+        background-color: rgb(187, 255, 0);
+
+    }
+}
+.login h1{
+    margin: 0;
+ padding-top: 0;
+ padding-left: 0;
+ padding-bottom: 20px;
+    text-align: center;
+    font-size: 40px;
+    font-style: italic;
+font-family: monospace;    color: white;
+    letter-spacing: 10px;
+}
+    
+.login input[type="text"], input[type="password"]{
+    border: none; 
+    border-bottom: .05px solid white; 
+    border-top: .05px solid white;
+    border-left: .05px solid white;
+    border-right: .05px solid white;
+     background: transparent;
+    outline: none;
+    height: 40px;
+     color: white;
+    font-size: 16px;
+    font-family: cursive;
+    letter-spacing: 3px;
+    margin-left: 150px;
+    border-radius: 40px;
+    border-color: rgba(231, 139, 162, 0.884);
+    border-width: 1px;
+    font-weight: bolder;
+    width: 275px;
+}
+.login input[type="checkbox"]{
+    margin-left: 160px;
+    
+    color: white;
+}
+.login label {
+    color: grey;
+    font-family: cursive;
+    font-size: 15px;
+}
+.login input[type="submit"] {
+    border: none;
+    outline: none;
+    height: 45px;
+    width: 200px;
+    color:white;
+    background: rgba(231, 139, 162, 0.884);
+    border-radius: 20px;
+    transition: 0.2s;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: cursive;
+    margin-left: 200px;
+    text-transform: uppercase;}
+
+    .login ul li{
+        list-style: none;
+        display: inline-block;
+    }
+    .login ul li{
+        color:white;
+    font-family: cursive;
+    font-size: 15px;
+    margin: 50px;
+    margin-top: 2px;
+    margin-left: 90px;
+    }
+    .login p {
+        color: white;
+        font-family: cursive;
+        font-size: 25px;
+        margin-top: 10px;
+        font-weight: bolder;
+        /* margin-bottom: 350px; */
+        margin-left: 250px;
+        
+    }
+    .login p a img{
+
+        margin: 2px;
+    }
+    /* <style>{
+        .fofo{
+            animation-iteration-count: infinite;
+            animation-duration: 30s;
+            
+
+        }
+    } */
